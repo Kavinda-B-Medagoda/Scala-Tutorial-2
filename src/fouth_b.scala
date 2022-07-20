@@ -12,7 +12,7 @@ object fouth_b {
   }
   
   def cost(price:Int):Int ={
-     500 + attendance * 3;
+     500 + attendance(price) * 3;
   }
   
   def profit(price:Int):Int = {
