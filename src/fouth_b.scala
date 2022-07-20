@@ -11,7 +11,7 @@ object fouth_b {
     attendance(price) * price;
   }
   
-  def cost(attendance:Int):Int ={
+  def cost(price:Int):Int ={
      500 + attendance * 3;
   }
   
